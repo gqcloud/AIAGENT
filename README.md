@@ -2,10 +2,12 @@
 
 基于 MVP 原则开发的银行场景智能体应用，集成 AI 对话能力，支持账户查询、转账、账单支付等核心银行功能。
 
-## 项目/视频说明
+## 项目说明
 
 如果手机端注册失败，请优先使用浏览器打开，已适配 pc 和移动，做转账时可注册两个账号互转，转账助手由于需要 api，这里使用的 openai 的 chatgpt，暂时未提供
-[aiagentvideos](https://meeting.tencent.com/crm/NgDek6J762)
+
+## 视频演示
+[智能体开发视频](https://meeting.tencent.com/crm/NgDek6J762)
 
 ## 项目架构
 
