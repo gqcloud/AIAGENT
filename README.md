@@ -7,7 +7,8 @@
 如果手机端注册失败，请优先使用浏览器打开，已适配 pc 和移动，做转账时可注册两个账号互转，转账助手由于需要 api，这里使用的 openai 的 chatgpt，暂时未提供
 
 ## 视频演示
-[智能体开发视频](https://meeting.tencent.com/crm/NgDek6J762)
+📹 录制文件：
+<a href="https://meeting.tencent.com/crm/NgDek6J762" target="_blank">智能体开发视频</a>
 
 ## 项目架构
 
