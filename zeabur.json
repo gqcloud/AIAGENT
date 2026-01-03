@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "backend/package.json",
+      "use": "@zeabur/node",
+      "config": {
+        "installCommand": "cd backend && npm install",
+        "buildCommand": "cd backend && npm run build || true",
+        "startCommand": "cd backend && npm start"
+      }
+    },
+    {
+      "src": "frontend/package.json",
+      "use": "@zeabur/static",
+      "config": {
+        "installCommand": "cd frontend && npm install",
+        "buildCommand": "cd frontend && npm run build",
+        "outputDirectory": "frontend/build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "backend"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "frontend"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "bank-ai-agent",
+  "version": "1.0.0",
+  "description": "银行智能体应用 - MVP版本",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["bank", "ai", "agent", "mvp"],
+  "author": "",
+  "license": "MIT"
+}
+
