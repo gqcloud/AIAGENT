@@ -10,6 +10,9 @@
 📹 录制文件：
 <a href="https://meeting.tencent.com/crm/NgDek6J762" target="_blank">智能体开发视频</a>
 
+## 项目地址
+<a href="aiagent-one.vercel.app/login" target="_blank">项目地址</a>
+
 ## 项目架构
 
 ```
