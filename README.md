@@ -1,6 +1,39 @@
 # 银行智能体应用 (Bank AI Agent)
 
-基于 MVP 原则开发的银行场景智能体应用，集成 AI 对话能力，支持账户查询、转账、账单支付等核心银行功能。
+基于 MVP 原则开发的银行场景智能体应用，集成 AI 对话能力，支持账户查询、转账、账单支付等核心银行功能,并使用 openspec 对项目做规范驱动开发。
+
+## 项目说明
+
+如果手机端注册失败，请优先使用浏览器打开，已适配 pc 和移动，做转账时可注册两个账号互转，转账助手由于需要 api，这里使用的 openai 的 chatgpt，暂时未提供
+
+## 部分截图
+
+![图片](./png/p1.png)
+![图片](./png/p2.png)
+![图片](./png/p3.png)
+![图片](./png/p4.png)
+![图片](./png/p5.png)
+![图片](./png/p6.png)
+![图片](./png/p7.png)
+![图片](./png/p8.png)
+![图片](./png/p9.png)
+![图片](./png/p10.png)
+![图片](./png/p11.png)
+![图片](./png/p12.png)
+![图片](./png/p13.png)
+![图片](./png/p14.png)
+![图片](./png/p15.png)
+![图片](./png/p16.png)
+![图片](./png/p17.png)
+
+## 视频演示
+
+📹 录制文件：
+<a href="https://meeting.tencent.com/crm/NgDek6J7a9" target="_blank">智能体开发视频</a>
+
+## 项目地址
+
+<a href="https://aiagent-one.vercel.app/login" target="_blank">项目地址</a>
 
 ## 项目架构
 
