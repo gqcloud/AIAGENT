@@ -7,7 +7,7 @@ const OpenAI = require('openai');
 const router = express.Router();
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
+  apiKey: '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'
 });
 
 // AI 对话接口
