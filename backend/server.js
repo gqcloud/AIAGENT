@@ -50,8 +50,8 @@ app.use((req, res) => {
   res.status(404).json({ error: "接口不存在" });
 });
 
-app.listen(PORT, () => {
-  console.log(`服务器运行在端口 ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`服务器运行在端口 ${PORT}`);
+// });
 
 module.exports = app;
